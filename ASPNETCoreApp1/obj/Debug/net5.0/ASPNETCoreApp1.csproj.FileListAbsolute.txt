@@ -68,6 +68,5 @@ D:\.NET\ASPNETCoreApp1\ASPNETCoreApp1\obj\Debug\net5.0\ref\ASPNETCoreApp1.dll
 D:\.NET\ASPNETCoreApp1\ASPNETCoreApp1\obj\Debug\net5.0\ASPNETCoreApp1.pdb
 D:\.NET\ASPNETCoreApp1\ASPNETCoreApp1\obj\Debug\net5.0\ASPNETCoreApp1.genruntimeconfig.cache
 D:\.NET\ASPNETCoreApp1\ASPNETCoreApp1\obj\Debug\net5.0\ASPNETCoreApp1.csproj.CopyComplete
-D:\.NET\ASPNETCoreApp1\ASPNETCoreApp1\obj\Debug\net5.0\Razor\Pages\View3.cshtml.g.cs
-D:\.NET\ASPNETCoreApp1\ASPNETCoreApp1\obj\Debug\net5.0\Razor\Views\Home\View1.cshtml.g.cs
-D:\.NET\ASPNETCoreApp1\ASPNETCoreApp1\obj\Debug\net5.0\Razor\Views\Others\View2.cshtml.g.cs
+D:\.NET\ASPNETCoreApp1\ASPNETCoreApp1\obj\Debug\net5.0\Razor\Views\Home\Ruyhat.cshtml.g.cs
+D:\.NET\ASPNETCoreApp1\ASPNETCoreApp1\obj\Debug\net5.0\Razor\Views\Home\Details.cshtml.g.cs

@@ -1,0 +1,24 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title></title>
+</head>
+<body>
+	<h3>@ViewBag.title</h3>
+	@{
+		var staff = ViewData["staff"] as List<ASPNETCoreApp1.Models.Staff>;
+	}
+	@for(int i=0; i<3; i++){
+		if (staff[i] == null) return;
+		<div>
+		Name: @staff[i].FirstName @staff[i].LastName
+	</div>
+	<div>
+		Email: @staff[i].Email
+	</div>
+	<div>
+		Department: @staff[i].Department
+	</div>
+	<br/>
+	}
+</body>
+</html>

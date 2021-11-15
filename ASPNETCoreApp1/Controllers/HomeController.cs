@@ -18,19 +18,23 @@ namespace ASPNETCoreApp1.Controllers
         public ViewResult Index()
         {
             return View();
-        }
-
-        public ViewResult ViewOne()
+        } 
+        public ViewResult Details()
         {
-            return View("View1");
+            Staff staff = _staffRepository.Get(2);
+            ViewBag.title = $"SELECTED {staff.FirstName}";
+            return View(staff);
         }
-        public ViewResult ViewTwo()
+        public ViewResult Ruyhat()
         {
-            return View("../Others/View2");
-        }
-        public ViewResult ViewThree()
-        {
-            return View("~/Pages/View3.cshtml");
+            List<Staff> staffs=new List<Staff>();
+            for(int i=0; i<3; i++)
+            {
+                staffs.Add(_staffRepository.Get(i));
+            }
+            ViewData["staff"]=staffs;
+            ViewBag.title = "Birinchi ASP.NET Core MVC dasturim";
+            return View();
         }
         public JsonResult Data()
         {
