@@ -30,7 +30,7 @@ namespace ASPNETCoreApp1.Controllers
             List<Staff> staffs=new List<Staff>();
             for(int i=0; i<3; i++)
             {
-                staffs.Add(_staffRepository.Get(i));
+                staffs.Add(_staffRepository.Get(i+1));
             }
             ViewData["staff"]=staffs;
             ViewBag.title = "Birinchi ASP.NET Core MVC dasturim";
