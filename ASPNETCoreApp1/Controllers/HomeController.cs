@@ -19,6 +19,19 @@ namespace ASPNETCoreApp1.Controllers
         {
             return View();
         }
+
+        public ViewResult ViewOne()
+        {
+            return View("View1");
+        }
+        public ViewResult ViewTwo()
+        {
+            return View("../Others/View2");
+        }
+        public ViewResult ViewThree()
+        {
+            return View("~/Pages/View3.cshtml");
+        }
         public JsonResult Data()
         {
             return Json(new {id=20, firstName="Faxriddin", lastName="Xushnazarov"});
