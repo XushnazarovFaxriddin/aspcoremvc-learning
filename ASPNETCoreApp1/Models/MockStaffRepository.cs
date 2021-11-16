@@ -23,5 +23,10 @@ namespace ASPNETCoreApp1.Models
         {
             return _staffs.FirstOrDefault(staff => staff.Id.Equals(id));
         }
+
+        public IEnumerable<Staff> GetAll()
+        {
+            return _staffs;
+        }
     }
 }

@@ -1,18 +1,17 @@
-﻿@model ASPNETCoreApp1.Models.Staff
-<html xmlns="http://www.w3.org/1999/xhtml">
-	<head>
-		<title></title>
-	</head>
-	<body>
-		<h3>@ViewBag.title</h3>
-		<div>
-			Name: @Model.FirstName @Model.LastName
-		</div>
-		<div>
-			Email: @Model.Email
-		</div>
-		<div>
-			Department: @Model.Department
-		</div>
-	</body>
-</html>
+﻿@model ASPNETCoreApp1.ViewModels.HomeDetailsViewModel
+
+@{ 
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Details Page";
+}
+
+<h3>@Model.Title</h3>
+<div>
+    Name: @Model.Staff.FirstName @Model.Staff.LastName
+</div>
+<div>
+    Email: @Model.Staff.Email
+</div>
+<div>
+    Department: @Model.Staff.Department
+</div>

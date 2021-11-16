@@ -107,3 +107,4 @@ E:\.NET\aspcoremvc-learning\ASPNETCoreApp1\obj\Debug\net5.0\ref\ASPNETCoreApp1.d
 E:\.NET\aspcoremvc-learning\ASPNETCoreApp1\obj\Debug\net5.0\ASPNETCoreApp1.pdb
 E:\.NET\aspcoremvc-learning\ASPNETCoreApp1\obj\Debug\net5.0\ASPNETCoreApp1.genruntimeconfig.cache
 E:\.NET\aspcoremvc-learning\ASPNETCoreApp1\obj\Debug\net5.0\ASPNETCoreApp1.csproj.CopyComplete
+E:\.NET\aspcoremvc-learning\ASPNETCoreApp1\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs

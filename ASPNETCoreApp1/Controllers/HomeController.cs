@@ -1,4 +1,5 @@
 ﻿using ASPNETCoreApp1.Models;
+using ASPNETCoreApp1.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -17,13 +18,20 @@ namespace ASPNETCoreApp1.Controllers
         }
         public ViewResult Index()
         {
-            return View();
+            HomeIndexViewModel viewModel = new HomeIndexViewModel()
+            {
+                Staffs = _staffRepository.GetAll()
+            };
+            return View(viewModel);
         } 
         public ViewResult Details()
         {
-            Staff staff = _staffRepository.Get(2);
-            ViewBag.title = $"SELECTED {staff.FirstName}";
-            return View(staff);
+            HomeDetailsViewModel viewModel = new HomeDetailsViewModel()
+            {
+                Staff = _staffRepository.Get(2),
+                Title = $"SELECTED USER"
+            };
+            return View(viewModel);
         }
         public ViewResult Ruyhat()
         {
