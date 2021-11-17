@@ -24,11 +24,11 @@ namespace ASPNETCoreApp1.Controllers
             };
             return View(viewModel);
         } 
-        public ViewResult Details()
+        public ViewResult Details(int? id)
         {
             HomeDetailsViewModel viewModel = new HomeDetailsViewModel()
             {
-                Staff = _staffRepository.Get(2),
+                Staff = _staffRepository.Get((id%(_staffRepository.GetAll().Count()+1)??1)==0?1:(id % (_staffRepository.GetAll().Count() + 1) ?? 1)),
                 Title = $"SELECTED USER"
             };
             return View(viewModel);
