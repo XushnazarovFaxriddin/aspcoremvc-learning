@@ -148,3 +148,4 @@ D:\.NET\aspcoremvc-learning\ASPNETCoreApp1\obj\Debug\net5.0\ASPNETCoreApp1.genru
 D:\.NET\aspcoremvc-learning\ASPNETCoreApp1\obj\Debug\net5.0\ASPNETCoreApp1.csproj.CopyComplete
 D:\.NET\aspcoremvc-learning\ASPNETCoreApp1\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
 D:\.NET\aspcoremvc-learning\ASPNETCoreApp1\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+D:\.NET\aspcoremvc-learning\ASPNETCoreApp1\bin\Debug\net5.0\libman.json
