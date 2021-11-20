@@ -5,11 +5,13 @@ using System.Threading.Tasks;
 
 namespace ASPNETCoreApp1.Models
 {
-    public interface IStaffRepository
+    public enum Departments
     {
-        Staff Get(int id);
-        IEnumerable<Staff> GetAll();
-
-        Staff Create(Staff staff);
+        None,
+        Admin,
+        Dekan,
+        Oqituvchi,
+        ZamDekan,
+        Tyuter
     }
 }

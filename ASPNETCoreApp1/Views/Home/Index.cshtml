@@ -3,20 +3,20 @@
 @{
     ViewBag.Title = "Index Page";
 }
-<div class="card-deck d-flex flex-row">
+<div class="card-deck row">
     @foreach(var staff in Model.Staffs)
     {
-        <div class="card m-3">
+        <div class="col-lg-4 col-md-6 mt-3">
             <div class="card-header">
                 <h3>@staff.FirstName @staff.LastName</h3>
             </div>
             <img class="card-img-top" src="~/images/user.png"/>
             <div class="card-footer text-center">
                @*<a href="/home/details/@staff.Id" class="btn btn-primary">View</a>
-               <a href="@Url.Action("details","home",new {id=>staff.Id})" class="btn btn-primary">View</a>*@
-               <a asp-controller="home" asp-action="details" asp-route-Id="@staff.Id" class="btn btn-primary">View</a>
-               <a href="#" class="btn btn-primary">Edit</a>
-               <a href="#" class="btn btn-danger">Delete</a>
+               <a href="@Url.Action("details","home",new {id=staff.Id})" class="btn btn-primary">View</a>*@
+               <a asp-controller="home" asp-action="details" asp-route-Id="@staff.Id" class="btn btn-primary m-1">View</a>
+               <a href="#" class="btn btn-primary m-1">Edit</a>
+               <a href="#" class="btn btn-danger m-1">Delete</a>
             </div>
         </div>
 

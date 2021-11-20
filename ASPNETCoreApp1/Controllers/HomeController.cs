@@ -44,6 +44,20 @@ namespace ASPNETCoreApp1.Controllers
             ViewBag.title = "Birinchi ASP.NET Core MVC dasturim";
             return View();
         }
+
+        [HttpGet]
+        public ViewResult Create()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Create(Staff staff)
+        {
+            var newStaff = _staffRepository.Create(staff);
+            return RedirectToAction("details", new { id = newStaff.Id });
+        }
+
         public JsonResult Data()
         {
             return Json(new {id=20, firstName="Faxriddin", lastName="Xushnazarov"});

@@ -149,3 +149,9 @@ D:\.NET\aspcoremvc-learning\ASPNETCoreApp1\obj\Debug\net5.0\ASPNETCoreApp1.cspro
 D:\.NET\aspcoremvc-learning\ASPNETCoreApp1\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
 D:\.NET\aspcoremvc-learning\ASPNETCoreApp1\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
 D:\.NET\aspcoremvc-learning\ASPNETCoreApp1\bin\Debug\net5.0\libman.json
+E:\.NET\aspcoremvc-learning\ASPNETCoreApp1\bin\Debug\net5.0\libman.json
+E:\.NET\aspcoremvc-learning\ASPNETCoreApp1\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+E:\.NET\aspcoremvc-learning\ASPNETCoreApp1\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+E:\.NET\aspcoremvc-learning\ASPNETCoreApp1\obj\Debug\net5.0\Razor\Views\Home\Create.cshtml.g.cs
+E:\.NET\aspcoremvc-learning\ASPNETCoreApp1\bin\Debug\net5.0\Newtonsoft.Json.dll
+E:\.NET\aspcoremvc-learning\ASPNETCoreApp1\bin\Debug\net5.0\NgrokAspNetCore.Lib.dll

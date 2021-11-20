@@ -15,6 +15,6 @@ namespace ASPNETCoreApp1.Models
 
         public string  Email { get; set; }
 
-        public string  Department { get; set; }
+        public Departments  Department { get; set; }
     }
 }
