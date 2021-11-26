@@ -54,8 +54,11 @@ namespace ASPNETCoreApp1.Controllers
         [HttpPost]
         public IActionResult Create(Staff staff)
         {
-            var newStaff = _staffRepository.Create(staff);
-            return RedirectToAction("details", new { id = newStaff.Id });
+            if (ModelState.IsValid) {
+                var newStaff = _staffRepository.Create(staff);
+                return RedirectToAction("details", new { id = newStaff.Id });
+            }
+            return View();
         }
 
         public JsonResult Data()
